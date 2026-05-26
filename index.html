@@ -1,0 +1,786 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Amine Quaily | Portfolio</title>
+  <meta name="description" content="Portfolio d'Amine Quaily, étudiant en 3ème année de BUT Informatique." />
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+</head>
+
+<body>
+
+<div class="cursor-dot"></div>
+<div class="cursor-outline"></div>
+
+<div id="introLuxe">
+  <div class="intro-grid"></div>
+  <div class="intro-orb intro-orb-1"></div>
+  <div class="intro-orb intro-orb-2"></div>
+
+  <div class="intro-content">
+    <span class="intro-small">Portfolio 2026</span>
+    <h1 class="intro-title">Amine Quaily</h1>
+    <div class="intro-line"></div>
+    <p class="intro-sub">BUT Informatique • Projets • Compétences • Expériences</p>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+
+    <a href="#top" class="brand magnetic">
+      <div class="brand-logo">AQ</div>
+      <div class="brand-text">
+        <strong>Amine Quaily</strong>
+        <span>Portfolio</span>
+      </div>
+    </a>
+
+    <button class="burger" type="button" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav">
+      <a href="#top" class="nav-link is-active">Accueil</a>
+      <a href="#profile" class="nav-link">Profil</a>
+      <a href="#skills" class="nav-link">Compétences</a>
+      <a href="#projects" class="nav-link">Projets</a>
+      <a href="#method" class="nav-link">Méthode</a>
+      <a href="#experience" class="nav-link">Expériences</a>
+      <a href="#formation" class="nav-link">Formation</a>
+      <a href="#tools" class="nav-link">Outils</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+  </div>
+</header>
+
+<main>
+
+<section class="hero" id="top">
+  <div class="hero-bg-grid"></div>
+  <div class="hero-glow hero-glow-1"></div>
+  <div class="hero-glow hero-glow-2"></div>
+
+  <div class="container hero-layout">
+
+    <div class="hero-content">
+      <span class="hero-kicker reveal">Étudiant en 3ème année de BUT Informatique</span>
+
+      <h1 id="heroTitle" class="reveal">
+        Amine<br>
+        <span>Quaily</span>
+      </h1>
+
+      <p class="hero-description reveal">
+        Étudiant à l’Université Paris-Saclay, je présente ici mon parcours, mes compétences techniques,
+        mes projets universitaires et professionnels.
+      </p>
+
+      <div class="hero-actions reveal">
+        <a href="#projects" class="btn btn-primary magnetic">
+          <span>Découvrir mes projets</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+        <a href="#skills" class="btn btn-outline magnetic">
+          <span>Voir mes compétences</span>
+        </a>
+      </div>
+    </div>
+
+    <aside class="hero-panel reveal">
+      <div class="panel-top">
+        <div class="panel-avatar">AQ</div>
+        <div>
+          <h3>Amine Quaily</h3>
+          <p>BUT Informatique — Université Paris-Saclay</p>
+        </div>
+      </div>
+
+      <div class="panel-separator"></div>
+
+      <div class="panel-list">
+        <div class="panel-item">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <span>3ème année de BUT Informatique</span>
+        </div>
+
+        <div class="panel-item">
+          <i class="fa-solid fa-code"></i>
+          <span>Programmation, web, bases de données</span>
+        </div>
+
+        <div class="panel-item">
+          <i class="fa-solid fa-diagram-project"></i>
+          <span>Projets universitaires et professionnels</span>
+        </div>
+
+        <div class="panel-item">
+          <i class="fa-solid fa-briefcase"></i>
+          <span>Recherche d’une alternance de 24 mois</span>
+        </div>
+      </div>
+    </aside>
+
+  </div>
+</section>
+
+<section class="stats-section">
+  <div class="container stats-grid">
+
+    <article class="stat-card reveal">
+      <span>01</span>
+      <h3>3ème année</h3>
+      <p>BUT Informatique</p>
+    </article>
+
+    <article class="stat-card reveal">
+      <span>02</span>
+      <h3>4 mois</h3>
+      <p>Stage développement web</p>
+    </article>
+
+    <article class="stat-card reveal">
+      <span>03</span>
+      <h3>6+</h3>
+      <p>Projets réalisés</p>
+    </article>
+
+    <article class="stat-card reveal">
+      <span>04</span>
+      <h3>24 mois</h3>
+      <p>Alternance recherchée</p>
+    </article>
+
+  </div>
+</section>
+
+<section class="section profile-section" id="profile">
+  <div class="container">
+
+    <div class="section-head reveal">
+      <span>Profil</span>
+      <h2>Un parcours polyvalent et technique.</h2>
+      <p>
+        Mon parcours combine informatique, projets concrets, expériences professionnelles,
+        relation client, gestion administrative et travail en équipe.
+      </p>
+    </div>
+
+    <div class="profile-grid">
+
+      <article class="profile-card profile-large reveal">
+        <div class="card-number">01</div>
+        <i class="fa-solid fa-user-astronaut"></i>
+        <h3>À propos</h3>
+        <p>
+          Je suis étudiant en 3ème année de BUT Informatique à l’Université Paris-Saclay.
+          Durant mon parcours, j’ai travaillé sur plusieurs domaines : développement web,
+          programmation, bases de données, algorithmique, systèmes, gestion de projet
+          et interfaces interactives.
+        </p>
+      </article>
+
+      <article class="profile-card reveal">
+        <div class="card-number">02</div>
+        <i class="fa-solid fa-bullseye"></i>
+        <h3>Objectif</h3>
+        <p>
+          Trouver une alternance de 24 mois dans le domaine de l’informatique afin de renforcer
+          mes compétences, progresser en entreprise et participer à des projets concrets.
+        </p>
+      </article>
+
+      <article class="profile-card reveal">
+        <div class="card-number">03</div>
+        <i class="fa-solid fa-seedling"></i>
+        <h3>État d’esprit</h3>
+        <p>
+          Curieux, motivé et sérieux, j’aime apprendre, comprendre les besoins d’un projet
+          et améliorer progressivement la qualité de mon travail.
+        </p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section class="section skills-section" id="skills">
+  <div class="container">
+
+    <div class="section-head reveal">
+      <span>Compétences</span>
+      <h2>Ce que le BUT Informatique m’a apporté.</h2>
+      <p>
+        Le BUT Informatique m’a permis de développer une vision large de l’informatique :
+        programmation, web, bases de données, systèmes, réseaux, tests, qualité et gestion de projet.
+      </p>
+    </div>
+
+    <div class="skills-grid">
+
+      <article class="skill-card reveal">
+        <i class="fa-solid fa-code"></i>
+        <h3>Programmation</h3>
+        <p>Python, Java, C, C++, algorithmique, structures de données et logique informatique.</p>
+      </article>
+
+      <article class="skill-card reveal">
+        <i class="fa-solid fa-cubes"></i>
+        <h3>Programmation orientée objet</h3>
+        <p>Conception de classes, objets, méthodes, organisation du code et principes de développement logiciel.</p>
+      </article>
+
+      <article class="skill-card reveal">
+        <i class="fa-solid fa-globe"></i>
+        <h3>Développement web</h3>
+        <p>HTML, CSS, JavaScript, pages responsives, intégration d’interfaces et interactions utilisateur.</p>
+      </article>
+
+      <article class="skill-card reveal">
+        <i class="fa-solid fa-server"></i>
+        <h3>Back-end</h3>
+        <p>PHP, pages dynamiques, formulaires, traitement de données et logique côté serveur.</p>
+      </article>
+
+      <article class="skill-card reveal">
+        <i class="fa-solid fa-database"></i>
+        <h3>Bases de données</h3>
+        <p>SQL, MySQL, modélisation relationnelle, requêtes, gestion et manipulation de données.</p>
+      </article>
+
+      <article class="skill-card reveal">
+        <i class="fa-solid fa-network-wired"></i>
+        <h3>Systèmes & réseaux</h3>
+        <p>Linux, Windows, notions réseaux, services, environnements techniques et virtualisation.</p>
+      </article>
+
+      <article class="skill-card reveal">
+        <i class="fa-solid fa-vial-circle-check"></i>
+        <h3>Tests & qualité</h3>
+        <p>Vérification de fonctionnalités, correction de bugs, amélioration continue et validation logicielle.</p>
+      </article>
+
+      <article class="skill-card reveal">
+        <i class="fa-solid fa-diagram-project"></i>
+        <h3>Gestion de projet</h3>
+        <p>Organisation, documentation, planification, suivi de tâches, travail en équipe et communication.</p>
+      </article>
+
+      <article class="skill-card reveal">
+        <i class="fa-solid fa-palette"></i>
+        <h3>Interfaces interactives</h3>
+        <p>Conception d’écrans modernes, animations, expérience utilisateur et présentation visuelle.</p>
+      </article>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="section projects-section" id="projects">
+  <div class="container">
+
+    <div class="section-head reveal">
+      <span>Projets</span>
+      <h2>Mes réalisations importantes.</h2>
+      <p>
+        Des projets variés réalisés dans le cadre universitaire, personnel ou professionnel,
+        mêlant programmation, web, données, interfaces et logique applicative.
+      </p>
+    </div>
+
+    <div class="projects-grid">
+
+      <article class="project-card project-featured reveal">
+        <div class="project-top">
+          <div class="project-icon">🏎️</div>
+          <span>Stage 4 mois</span>
+        </div>
+
+        <h3>Site officiel d’un pilote de Formule 4</h3>
+        <p>
+          Stage réalisé chez Tous en Stage pour participer au développement du site officiel
+          d’un pilote de F4. Travail sur les pages du site, l’intégration, les animations,
+          le responsive design, la galerie média et l’expérience utilisateur.
+        </p>
+
+        <div class="project-techs">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>UI</span>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-icon">🎮</div>
+        <h3>Escape Room Mathématique</h3>
+        <p>
+          Jeu sérieux interactif dans lequel l’utilisateur doit résoudre des énigmes
+          mathématiques pour progresser.
+        </p>
+        <div class="project-techs">
+          <span>Unity</span>
+          <span>C#</span>
+          <span>Game Design</span>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-icon">⚽</div>
+        <h3>Baby-foot automatisé</h3>
+        <p>
+          Projet mêlant électronique, capteurs, automatisation et programmation avec Arduino.
+        </p>
+        <div class="project-techs">
+          <span>Arduino</span>
+          <span>C</span>
+          <span>C++</span>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-icon">🏅</div>
+        <h3>Application Jeux Olympiques</h3>
+        <p>
+          Application web autour de l’histoire des Jeux Olympiques avec affichage dynamique
+          et gestion des données.
+        </p>
+        <div class="project-techs">
+          <span>PHP</span>
+          <span>MySQL</span>
+          <span>JavaScript</span>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-icon">🗳️</div>
+        <h3>Démocratie participative</h3>
+        <p>
+          Plateforme web permettant de proposer, voter et interagir autour d’idées citoyennes.
+        </p>
+        <div class="project-techs">
+          <span>PHP</span>
+          <span>MySQL</span>
+          <span>HTML</span>
+          <span>CSS</span>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-icon">🌐</div>
+        <h3>Sites web responsive</h3>
+        <p>
+          Réalisation de plusieurs interfaces web modernes, structurées et adaptées aux écrans.
+        </p>
+        <div class="project-techs">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+        </div>
+      </article>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="section method-section" id="method">
+  <div class="container">
+
+    <div class="section-head reveal">
+      <span>Méthode</span>
+      <h2>Ma façon de travailler.</h2>
+      <p>
+        J’avance avec une méthode claire : comprendre le besoin, organiser le projet,
+        développer, tester puis améliorer.
+      </p>
+    </div>
+
+    <div class="method-grid">
+
+      <article class="method-card reveal">
+        <span>01</span>
+        <h3>Comprendre</h3>
+        <p>Analyser le besoin, les objectifs et les attentes du projet.</p>
+      </article>
+
+      <article class="method-card reveal">
+        <span>02</span>
+        <h3>Structurer</h3>
+        <p>Organiser les pages, les fonctionnalités, les données et les tâches.</p>
+      </article>
+
+      <article class="method-card reveal">
+        <span>03</span>
+        <h3>Développer</h3>
+        <p>Construire une solution claire, fonctionnelle et maintenable.</p>
+      </article>
+
+      <article class="method-card reveal">
+        <span>04</span>
+        <h3>Améliorer</h3>
+        <p>Tester, corriger, optimiser et rendre l’expérience plus fluide.</p>
+      </article>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="section values-section" id="values">
+  <div class="container">
+
+    <div class="section-head reveal">
+      <span>Qualités</span>
+      <h2>Mes points forts.</h2>
+    </div>
+
+    <div class="values-grid">
+
+      <article class="value-card reveal">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <h3>Curiosité</h3>
+        <p>J’aime comprendre, tester, apprendre et découvrir de nouveaux outils.</p>
+      </article>
+
+      <article class="value-card reveal">
+        <i class="fa-solid fa-list-check"></i>
+        <h3>Organisation</h3>
+        <p>Je sais structurer mon travail, suivre des étapes et respecter les objectifs.</p>
+      </article>
+
+      <article class="value-card reveal">
+        <i class="fa-solid fa-users"></i>
+        <h3>Travail d’équipe</h3>
+        <p>Mes projets et expériences m’ont appris à collaborer efficacement.</p>
+      </article>
+
+      <article class="value-card reveal">
+        <i class="fa-solid fa-wand-magic-sparkles"></i>
+        <h3>Créativité</h3>
+        <p>J’accorde de l’importance à la présentation, à l’expérience utilisateur et au rendu final.</p>
+      </article>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="section experience-section" id="experience">
+  <div class="container">
+
+    <div class="section-head reveal">
+      <span>Expériences</span>
+      <h2>Mon parcours professionnel.</h2>
+    </div>
+
+    <div class="timeline">
+
+      <article class="timeline-item reveal">
+        <div class="timeline-date">2025</div>
+        <div class="timeline-content">
+          <h3>Stage développement web</h3>
+          <h4>Tous en Stage — site officiel d’un pilote de F4</h4>
+          <p>
+            Stage de 4 mois autour du développement du site officiel d’un pilote de Formule 4 :
+            intégration, animations, responsive design, structuration des pages et amélioration visuelle.
+          </p>
+        </div>
+      </article>
+
+      <article class="timeline-item reveal">
+        <div class="timeline-date">2024</div>
+        <div class="timeline-content">
+          <h3>Animateur en centre de loisirs</h3>
+          <h4>Guyancourt</h4>
+          <p>
+            Animation et encadrement d’activités pour des groupes d’enfants et d’adolescents.
+          </p>
+        </div>
+      </article>
+
+      <article class="timeline-item reveal">
+        <div class="timeline-date">2023</div>
+        <div class="timeline-content">
+          <h3>Service facturation / informatique</h3>
+          <h4>Viatelease — Bois-Colombes</h4>
+          <p>
+            Soutien au service informatique et gestion administrative des factures.
+          </p>
+        </div>
+      </article>
+
+      <article class="timeline-item reveal">
+        <div class="timeline-date">2023</div>
+        <div class="timeline-content">
+          <h3>Service de recouvrement</h3>
+          <h4>Viatelease — Bois-Colombes</h4>
+          <p>
+            Suivi des paiements, relances clients et gestion de dossiers.
+          </p>
+        </div>
+      </article>
+
+      <article class="timeline-item reveal">
+        <div class="timeline-date">2022</div>
+        <div class="timeline-content">
+          <h3>Comptable</h3>
+          <h4>Viatelease — Bois-Colombes</h4>
+          <p>
+            Saisie comptable et gestion de documents financiers.
+          </p>
+        </div>
+      </article>
+
+      <article class="timeline-item reveal">
+        <div class="timeline-date">2018</div>
+        <div class="timeline-content">
+          <h3>Assistant cabinet dentaire</h3>
+          <h4>Dental Anspach — Belgique</h4>
+          <p>
+            Stage de découverte au sein d’un cabinet dentaire : accueil,
+            soutien administratif et relation client.
+          </p>
+        </div>
+      </article>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="section formation-section" id="formation">
+  <div class="container">
+
+    <div class="section-head reveal">
+      <span>Formation</span>
+      <h2>Mon parcours académique.</h2>
+    </div>
+
+    <div class="formation-grid">
+
+      <article class="formation-card reveal">
+        <div class="formation-icon">🎓</div>
+        <span>Depuis 2023</span>
+        <h3>BUT Informatique</h3>
+        <p>Université Paris-Saclay — IUT d’Orsay</p>
+        <small>3ème année en cours</small>
+      </article>
+
+      <article class="formation-card reveal">
+        <div class="formation-icon">🖥️</div>
+        <span>2021 - 2022</span>
+        <h3>Baccalauréat STI2D</h3>
+        <p>Systèmes d’Information et Numérique</p>
+      </article>
+
+      <article class="formation-card reveal">
+        <div class="formation-icon">📘</div>
+        <span>2018 - 2019</span>
+        <h3>Brevet des collèges</h3>
+        <p>Collège Ariane — Guyancourt</p>
+      </article>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="section tools-section" id="tools">
+  <div class="container">
+
+    <div class="section-head reveal">
+      <span>Outils</span>
+      <h2>Technologies utilisées.</h2>
+    </div>
+
+    <div class="tools-grid">
+      <span class="tool-pill reveal">HTML</span>
+      <span class="tool-pill reveal">CSS</span>
+      <span class="tool-pill reveal">JavaScript</span>
+      <span class="tool-pill reveal">PHP</span>
+      <span class="tool-pill reveal">MySQL</span>
+      <span class="tool-pill reveal">SQL</span>
+      <span class="tool-pill reveal">Python</span>
+      <span class="tool-pill reveal">Java</span>
+      <span class="tool-pill reveal">C</span>
+      <span class="tool-pill reveal">C++</span>
+      <span class="tool-pill reveal">Linux</span>
+      <span class="tool-pill reveal">Windows</span>
+      <span class="tool-pill reveal">Git</span>
+      <span class="tool-pill reveal">Pack Office</span>
+      <span class="tool-pill reveal">Unity</span>
+      <span class="tool-pill reveal">Arduino</span>
+    </div>
+
+  </div>
+</section>
+
+<section class="section languages-section" id="languages">
+  <div class="container">
+
+    <div class="section-head reveal">
+      <span>Langues</span>
+      <h2>Compétences linguistiques.</h2>
+    </div>
+
+    <div class="languages-grid">
+
+      <article class="language-card reveal">
+        <h3>Français</h3>
+        <p>Langue maternelle</p>
+      </article>
+
+      <article class="language-card reveal">
+        <h3>Anglais</h3>
+        <p>Niveau intermédiaire B2</p>
+      </article>
+
+      <article class="language-card reveal">
+        <h3>Espagnol</h3>
+        <p>Niveau débutant</p>
+      </article>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="section contact-section" id="contact">
+  <div class="container">
+
+    <div class="contact-box reveal">
+      <span>Contact</span>
+      <h2>Disponible pour échanger.</h2>
+      <p>
+        Je suis actuellement à la recherche d’une alternance de 24 mois
+        dans le domaine de l’informatique.
+      </p>
+
+      <div class="contact-actions">
+        <a href="#" class="btn btn-primary magnetic">Me contacter</a>
+        <a href="#" class="btn btn-outline magnetic">Voir mon CV</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <p>© <span id="year"></span> Amine Quaily — Portfolio</p>
+    <a href="#top">Haut de page ↑</a>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+
+gsap.registerPlugin(ScrollTrigger);
+
+gsap.to("#introLuxe", {
+  opacity: 0,
+  pointerEvents: "none",
+  delay: 2.8,
+  duration: 0.9,
+  ease: "power3.inOut"
+});
+
+gsap.from(".intro-title", {
+  y: 100,
+  opacity: 0,
+  duration: 1.2,
+  ease: "power4.out"
+});
+
+gsap.from(".intro-line", {
+  scaleX: 0,
+  duration: 1,
+  delay: 0.4,
+  ease: "power3.out"
+});
+
+gsap.from(".intro-small", {
+  opacity: 0,
+  y: 25,
+  duration: 0.9,
+  delay: 0.2
+});
+
+gsap.from(".hero-content > *", {
+  y: 80,
+  opacity: 0,
+  duration: 1,
+  stagger: 0.15,
+  delay: 3,
+  ease: "power4.out"
+});
+
+gsap.from(".hero-panel", {
+  y: 80,
+  opacity: 0,
+  duration: 1.1,
+  delay: 3.2,
+  ease: "power4.out"
+});
+
+gsap.utils.toArray(".reveal").forEach((el) => {
+  gsap.from(el, {
+    y: 90,
+    opacity: 0,
+    duration: 1,
+    ease: "power3.out",
+    scrollTrigger: {
+      trigger: el,
+      start: "top 85%"
+    }
+  });
+});
+
+document.querySelectorAll(".magnetic").forEach((btn) => {
+  btn.addEventListener("mousemove", (e) => {
+    const rect = btn.getBoundingClientRect();
+
+    const x = e.clientX - rect.left - rect.width / 2;
+    const y = e.clientY - rect.top - rect.height / 2;
+
+    gsap.to(btn, {
+      x: x * 0.16,
+      y: y * 0.16,
+      duration: 0.3
+    });
+  });
+
+  btn.addEventListener("mouseleave", () => {
+    gsap.to(btn, {
+      x: 0,
+      y: 0,
+      duration: 0.4
+    });
+  });
+});
+</script>
+
+</body>
+</html>
